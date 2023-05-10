@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(130, 202, 81);
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: darkolivegreen;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    z-index: 5;
+}
+
+.bio{
+    color: white;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.nav-blog{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+nav a:hover{
+    color: chartreuse;
+}
+nav a:hover{
+    
+    transition: 0.5s;
+}
+
+@media (max-width:768px){
+            header{
+                flex-direction: column;
+                
+            }
+            nav{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0; 
+                background-color: rgb(95, 121, 52);
+                position: fixed;
+                left: 0;
+                top: 90px;
+                width: 100%;
+            } 
+
+            nav a:hover{
+           background: none;
+           color: chartreuse;
+            }
+            .nav-toggle{
+                display: block;
+                text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            }
+            .redes{
+                width: 100%;
+            }
+        }
+
+.nav-toggle{
+color: white;
+background: none;
+border: none;
+font-size: 30px;
+padding: 0 20px;
+line-height: 60px;
+
+display: none;
+}
+
+h1{
+    font-size: 2rem;
+color: white;
+position: absolute;
+top: 150px;
+left: 800px;
+height: 0;
+transform: translate(-50%, -50%);
+text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.img1{
+    top: 150px;
+left: 100px;
+position: absolute;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.img2{
+    position: absolute;
+    top: 150px;
+display: inline-block;
+margin: 0;
+left: 425px;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    position: absolute;
+    top: 425px;
+    left: 570px;
+    box-shadow: 0 0 8px green;
+text-align: center;
+background-color: rgb(146, 248, 77);
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+}
+
+.fnd{
+    width: 350px;
+    height: 800px;
+    background-color: rgb(130, 202, 81);
+}
+
+footer{
+    width: 100%;
+    background-color: darkolivegreen;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    z-index: 5;
+}
+
+footer .redes{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display: grid;
+text-align: center;
+grid-gap: 50px;
+padding: 45px 0px;
+}
+
+footer .redes .box h2{
+color: #fff;
+margin-bottom: 25px;
+font-size: 20px;
+}
+
+footer .redes .red-social a{
+display: inline-block;
+text-decoration: none;
+width: 45px;
+height: 45px;
+line-height: 45px;
+color: chartreuse;
+margin-right: 20px;
+background-color: black;
+text-align: center;
+border-radius: 5px;
+transition: all 300ms ease;
+}
+
+footer .redes .red-social a:hover{
+    color: white;
+}
+
+footer .copy{
+    background-color: rgb(95, 121, 52);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+footer .copy small{
+    font-size: 15px;
+}
+
+
